@@ -8,6 +8,30 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form action="get">
+<label class='form-label' for="first-name-input">First Name</label>
+<input required type="text" id="first-name-input" class="form-control">
+<label class='form-label' for="last-name-input">Last Name</label>
+<input required type="text" id="last-name-input" class="form-control">
+<label class='form-label' for="email-input">Email Address</label>
+<input class="form-control" required type="email" id="email-input">
+<label class='form-label' for="college-input">College Name</label>
+<input class="form-control" required type="text" id="college-input">
+<label class='form-label' for="roll-no-input">Roll No.</label>
+<input class="form-control" required type="text" id="roll-no-input">
+<label class='form-label' for="conditions-checkbox">Agree to terms and conditions' within the element:</label>
+<input  required type="checkbox" id="conditions-checkbox" class='form-check-input'>
+<label class='form-label' for="grad-year-select">Graduation Year</label>
+<select class='form-select' id="grad-year-select" name="selectedOption" required>
+   <option value="2020">2020</option>
+   <option value="2021">2021</option>
+   <option value="2022">2022</option>
+   <option value="2023">2023</option>
+</select>
+		<input required type="text" id="first-name-input" class="form-control">
+<div class="invalid-feedback">First name is required.</div>
+   <input type="submit" value="submit">
+  </form>
     <script type="text/javascript" src="./script.js">
 </script>
 
